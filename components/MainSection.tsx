@@ -44,7 +44,10 @@ export default function MainSection() {
   });
 
   return (
-    <main className="flex w-full h-[50rem]">
+    <main className="flex flex-col w-full h-[50rem]">
+      <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0 max-w-[40rem] text-center">
+        ReText AI: Your Go-To Paraphrasing Tool
+      </h1>
       <div className="w-full flex flex-col justify-center items-center">
         <div className="flex lg:flex-row md:flex-row gap-4 lg:max-w-[60%] md:max-w-[80%] flex-col w-full items-center">
           <div className="flex flex-col lg:w-[50%] md:w-[50%] w-[70%]">
