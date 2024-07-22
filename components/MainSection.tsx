@@ -44,10 +44,16 @@ export default function MainSection() {
   });
 
   return (
-    <main className="flex flex-col w-full h-[50rem]">
-      <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0 max-w-[40rem] text-center">
-        ReText AI: Your Go-To Paraphrasing Tool
-      </h1>
+    <main className="flex flex-col w-full h-[50rem] items-center">
+      <div className="flex flex-col items-center justify-center lg:w-full w-[85%] h-64 lg:max-w-[35rem] md:max-w-[35rem] max-w-full">
+        <h1 className="scroll-m-20 pb-2 text-3xl font-semibold tracking-tight first:mt-0 text-center">
+          ReText AI: Your Go-To Paraphrasing Tool
+        </h1>
+        <p className="text-center lg:text-[16px] text-[14px] leading-7">
+          Welcome to ReText AI, the ultimate tool for transforming your text
+          into clear, concise, and error-free.
+        </p>
+      </div>
       <div className="w-full flex flex-col justify-center items-center">
         <div className="flex lg:flex-row md:flex-row gap-4 lg:max-w-[60%] md:max-w-[80%] flex-col w-full items-center">
           <div className="flex flex-col lg:w-[50%] md:w-[50%] w-[70%]">
